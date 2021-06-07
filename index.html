@@ -2,95 +2,105 @@
 <html>
     <head>
         <title> Abigail's Meh Website ¯\_(ツ)_/¯ </title>
-        <style> body {
-            background: rgb(0, 0, 0);
-            color: rgba(255, 255, 255, 0.856);
-            padding: 10px;
-            font-family: cursive;
-        }
-        #all-contents {
-            max-width: 800px;
-            margin: auto;
-        }
-    
-        /* navigation menu */
-        nav {
-            background: rgb(23, 255, 42);
-            margin: 0 auto;
-            display: flex;
-            padding: 10px;
-        }
-        h1 {
-            display: flex;
-            align-items: center;
-            color: black;
-            flex: 1;
-            margin: 0;
-        }
-        #nav-ul {
-            list-style-image: none;
-        }
-        .nav-li {
-            display: inline-block;
-            padding: 0 10px;
-        }
-        a {
-            text-decoration: none;
-            color: black;
-        }
-    
-        /* main container area beneath menu */
-        main {
-            background: rgb(0, 0, 0);
-            display: flex;
-        }
-        .sidebar {
-            margin-right: 25px;
-            padding: 10px;
-        }
-        .sidebar-img {
-            width: 200px;
-        }
-        .content {
-            flex: 1;
-            padding: 15px;
-        }
-        #interests {
-            border: 4px rgb(255, 33, 181);
-            padding: 8px;
-        }
-        h2, h3 {
-            margin: 0px;
-        }</style>
+        <style>
+         body {
+        background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20191029/pngtree-cute-animal-alien-seamless-pattern-with-cats-planet-and-stars-image_320215.jpg");
+        color: rgb(45, 45, 45);
+        padding: 10px;
+        font-family: arial;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: rgba(43, 42, 42, 0.808);
+        margin: 0 auto;
+        display: flex;
+        padding: 10px;
+    }
+    h1 {
+        display: flex;
+        align-items: center;
+        color: rgb(255, 1, 158);
+        flex: 1;
+        margin: 0;
+    }
+    #nav-ul {
+        list-style-image: none;
+    }
+    .nav-li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(7, 255, 28);
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(0, 0, 0);
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar-img {
+        width: 175px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+        color:rgb(7, 255, 28);
+        font-size: 21px
+    }
+    #interests {
+        border: 4px rgb(255, 0, 0) ridge;
+        padding: 8px;
+        color:rgb(255, 1, 158);
+    }
+    h3 {
+        margin: 0px;
+        color:rgb(255, 1, 158);
+    }
+    li { color:rgb(255, 1, 158);
+        Font-size: 21px
+    }
+        </style>
     </head>
 
     <body>
         <!--All of your contents go here-->
-        <div>
+        <div id="all-contents">
             <nav>
-              <h1> Abigail's Meh Website ¯\_(ツ)_/¯ </h1>
-              <ul>
-                <li>
-                  <a href="index.html"> Home </a>
-                </li>
-                <li>
-                  <a href="portfolio.html"> Portfolio </a>
-                </li>
-            </ul>
+                <h1> Abigail's Meh Website ¯\_(ツ)_/¯ </h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                      <a href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-li">
+                      <a href="portfolio.html"> Portfolio </a>
+                    </li>
+                </ul>
+               
             </nav>
             <main>
-                 <!-- Sidebar section-->
-              <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfoDknGb1OxRYyRB2LvZmYGn1IIrRaNUSYrg&usqp=CAU">
+                 <!-- Sidebar section and img-->
+              <div .sidebar>
+                <img class="sidebar-img" src="https://i.pinimg.com/originals/b6/5f/79/b65f79af734ca715f86e54d7abacdbd5.jpg">
             </div>
               <!-- Content section-->
-              <div>
+              <div class="content">
                 <h2> Hi ~ Hi </h2>
                 <p> Student of Early College Academy 🦅 </p>
               </div>
               <!--Intrest section-->
-              <div>
-                  <h3>Intrests</h3>
+              <div class="interests">
+                  <h3>Interests</h3>
                   <ul>
                       <li>Making Art</li>
                       <li>Listening to Music</li>
