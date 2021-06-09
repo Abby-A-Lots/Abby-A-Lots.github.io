@@ -23,12 +23,13 @@
      *      scaleY: OPTIONAL The scale factor on the y-axis, this value will 
      *              stretch the platform in height.
      */ 
-    function init(game) {
-        let createPlatform = platform.create;
-
+    function int(game) {
+        let createPlatform = platform.create;   
+     
+ 
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-        
+    
         /*
          * ground : here, we create a floor. Given the width of of the platform 
          * asset, giving it a scaleX and scaleY of 2 will stretch it across the 
@@ -39,9 +40,14 @@
         // example:
         createPlatform(400, 250);
         createPlatform(170, 460, 0.5);
+        createPlatform(400, 460, 2);
+        
+        
+        
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     }
-    platform.init = init;
+    platform.int = init;
 })(window);
+    
